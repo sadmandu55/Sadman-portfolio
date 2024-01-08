@@ -1,11 +1,9 @@
-*{
-    margin: 0;
-    padding: 0;
-}
+/* Nav styling starts here */
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 
 h2{
@@ -31,13 +29,15 @@ nav li{
     list-style: none;
     margin-right: 20px;
     font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
 
 }
 
 li a{
     text-decoration: none;
 }
-
+/* button styling starts here */
 .btn-prim{
         border-radius: 5px;
         font-family: 'Open Sans', sans-serif;
@@ -48,4 +48,21 @@ li a{
         color: white;
         border: none;
         padding: 12px 16px;
+}
+
+.header{
+    background-color: #ffe8d78d;
+    /* margin: 30px 30px 30px 150px; */
+}
+/* Banner styles starts here */
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.banner .Profile-pic{
+
+    width: 500px;
+
 }
