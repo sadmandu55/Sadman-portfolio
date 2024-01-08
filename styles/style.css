@@ -52,17 +52,75 @@ li a{
 
 .header{
     background-color: #ffe8d78d;
-    /* margin: 30px 30px 30px 150px; */
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;   
+    background-position: bottom right;
 }
 /* Banner styles starts here */
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+.banner-content{
+    max-height: 837px;
 }
 
 .banner .Profile-pic{
 
-    width: 500px;
+    width: 610px;
+    margin-top: ;
+}
 
+.banner-head{
+    font-size: 28px;    
+    margin-bottom: 0; 
+    margin-left: -16px;
+    font-family: 'Merriweather', serif;
+   
+}
+
+.banner-title{
+    font-size: 85px;
+    font-weight: 700;   
+    margin-top: 5px;
+    margin-left: -25px;
+    margin-bottom: 0;
+    font-family: 'Merriweather', serif;
+}
+
+.banner-P{
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-left: -23px;
+    font-family: 'Merriweather', serif;
+}
+
+.about{
+
+      border-radius: 10px;
+      background: #FFF8F3;
+      padding: 130px;
+      margin-top: 20px;
+    margin: 40px;
+    }
+
+.about-head{
+        color:#181818;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 35px;
+        font-weight: 700;
+}
+
+.about-dec{
+        color:#757575;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
 }
